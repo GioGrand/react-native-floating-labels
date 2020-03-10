@@ -171,7 +171,6 @@ var FloatingLabel = createReactClass({
 
 var labelStyleObj = {
   marginTop: 21,
-  paddingLeft: 9,
   color: '#AAA',
   position: 'absolute'
 }
@@ -193,20 +192,19 @@ var styles = StyleSheet.create({
     color: 'black',
     fontSize: 20,
     borderRadius: 4,
-    paddingLeft: 10,
     marginTop: 20,
   },
   label: labelStyleObj
 })
 
 var cleanStyle = {
-  fontSize: 18,
-  top: 7
+  fontSize: 16,
+  top: 12
 }
 
 var dirtyStyle = {
   fontSize: 12,
-  top: -17,
+  top: -12,
 }
 
 module.exports = FloatingLabel;
