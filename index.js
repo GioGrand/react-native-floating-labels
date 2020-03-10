@@ -200,7 +200,7 @@ var styles = StyleSheet.create({
 })
 
 var cleanStyle = {
-  fontSize: 20,
+  fontSize: 18,
   top: 7
 }
 
